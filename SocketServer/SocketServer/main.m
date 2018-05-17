@@ -82,7 +82,7 @@ int main(int argc, const char * argv[]) {
 //        设置本服务器可以监听本机任意可用 的IP地址
 //        addr4.sin_addr.s_addr = htonl(INADDR_ANY);
 //        设置服务器的监听地址,里面设置自己本机的网络地址
-        addr4.sin_addr.s_addr = inet_addr("xx.xx.xx.xx");
+        addr4.sin_addr.s_addr = inet_addr("192.168.1.13");
 //        设置服务器监听端口
         addr4.sin_port = htons(30000);
 //        将ipv4转换为cfdataref
